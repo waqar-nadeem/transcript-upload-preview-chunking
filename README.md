@@ -1,4 +1,6 @@
-# Task 2: Transcript Upload Handling and Preview with Chunking
+# Ezitech AI Internship
+
+# Project 2: Transcript Upload Handling and Preview with Chunking
 
 **Project:** AI-Powered Meeting Transcript Summariser for Mehfil Event Planners  
 **Client:** Mehfil Event Planners  
