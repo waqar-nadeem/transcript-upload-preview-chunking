@@ -54,23 +54,3 @@ transcript-upload-preview-chunking/
 └── sample_data/
     └── sample_meeting_transcript.txt
 ```
-
-## Task Progress
-| # | Task                                      | Status     | Days |
-|---|-------------------------------------------|------------|------|
-| 1 | Project repository, environment, landing page | Done (base) | 2    |
-| 2 | Transcript upload, preview & chunking     | **Completed** | 3 |
-| 3 | Integrate open-source summarisation model | Pending    | 4    |
-| 4 | Quality checklist for the summary         | Pending    | 2    |
-| 5 | Downloadable report (Markdown → PDF)      | Pending    | 3    |
-| 6 | Deploy to Streamlit Cloud + handover doc | Pending    | 3    |
-
-## Notes for Mentor (Task 2)
-- Implemented `chunk_text()` using simple word splitting (max 400 words per chunk).
-- Preview shows exactly the first 300 characters via `st.write`.
-- Chunks are stored in `st.session_state["chunks"]`.
-- The page clearly displays the number of detected chunks.
-- Sample transcript included for easy testing.
-
-## Next Steps (Task 3)
-Integrate an open-source summarisation model (e.g. Hugging Face `facebook/bart-large-cnn` or a lightweight alternative) to summarise each chunk and then combine the results.
